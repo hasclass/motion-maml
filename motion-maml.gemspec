@@ -13,4 +13,6 @@ Gem::Specification.new do |gem|
   gem.name          = "motion-maml"
   gem.require_paths = ["lib"]
   gem.version       = Maml::VERSION
+
+  gem.add_dependency "motion-require"
 end

@@ -1,3 +1,3 @@
-require File.expand_path('../motion-maml/maml', __FILE__)
-require File.expand_path('../motion-maml/ui', __FILE__)
-require File.expand_path('../motion-maml/version', __FILE__)
+require 'motion-require'
+
+Motion::Require.all(Dir.glob(File.expand_path('../motion-maml/**/*.rb', __FILE__)))
